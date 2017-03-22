@@ -1,0 +1,74 @@
+#formulaire{
+	background-color: grey;
+	padding-top:0;
+	padding:5%;
+}
+
+.btn-primary_btn {
+	margin-left:35%;
+	margin-right:35%;
+}
+
+h1{
+	color: #f1f1f1;
+}
+body{
+	background-color: #1d1d1d;
+}
+
+#formulaire{
+	margin-left:30%;
+	margin-right:30%;
+}
+
+fieldset{
+	border:0;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=date], select {
+	width:100%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+/*------------------ NAV -----------------------------*/
+
+nav{
+	background: red;
+	position : fixed;
+	top : 0;
+	width : 100%;
+	margin : auto;
+	/*min-height : 8%;*/
+}
+
+#navWrapper{
+	position : fixed;
+	width: 100%;
+	margin: auto;
+	background: yellow;
+	/*min-height : 8%;*/
+}
+
+#navWrapper ul{
+	margin: 0;
+	
+}
+
+#navWrapper li{
+	display: inline-block;
+	margin: 0;
+	
+}
+
+#navWrapper li a{
+	margin : 10%;
+	padding: 15%;
+	display: block;
+	border: 1px solid #0f0;
+	color: #00f;
+}
+#navWrapper li a:hover{
+	background: #0f0;
+	color: #f00;
+}

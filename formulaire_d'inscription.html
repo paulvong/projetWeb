@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Formulaire</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="formulaire.css">
+	</head>
+	<body>
+		<nav>
+			<div id="navWrapper">
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="">item</a></li>
+					<li><a href="">item</a></li>
+					<li><a href="formulaire_d'inscription.html">Inscription</a></li>
+					<li><a href="forum.html">Forum</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="formulaire">
+			<h1>Inscription au site</h1>
+			<form accept-charset="utf-8" method="post">
+				<fieldset>
+					<label for="pseudo">Pseudo</label>
+					<input type="text" placeholder="Pseudo" id="pseudo" name="pseudo" value="" required="">
+				</fieldset>
+				<fieldset>
+					<label for="password">Mot de passe</label>
+					<input placeholder="Mot de passe" required autocomplete="off" id="password" type="password" name="password">
+				</fieldset>
+				<fieldset>
+					<label for="password_confirmation">Confirmer le mot de passe</label>
+					<input placeholder="Confirmer le mot de passe" required autocomplete="off" id="password_confirmation" type="password" name="password_confirmation">
+				</fieldset>
+				<fieldset>
+					<label for="genderH">Homme</label>
+					<input name="gender" type="radio" id="genderH">
+					<label for="genderF">Femme</label>
+					<input name="gender" type="radio" id="genderF"/>
+				</fieldset>
+				<input class="btn-primary_btn" type="submit" value="S'inscrire">
+			</form>
+		</div>
+	</body>
+</html>

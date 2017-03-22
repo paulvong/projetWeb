@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Profil</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="formulaire.css">
+	</head>
+	<body>
+		<h1>pseudo de l'utilisateur</h1>
+		<img src="sdfgd" alt="photo de profil"/>
+		<div>
+			<h1>Votre profil</h1>
+			<p>Nom : Vong</p>
+			<p>Prénom : Paul</p>
+			<p>Date de naisasnce : 22/06/1994</p>
+		</div>
+		<div>
+			<h1>Modification de votre profil</h1>
+			<h2>Votre e-mail</h2>
+			<form accept-charset="utf-8" method="POST">
+				<fieldset>
+					<label for="email">E-mail</label>
+					<input placeholder="Adresse Email" required autocomplete="off" id="email" type="email" name="email">
+				</fieldset>
+				<fieldset>
+					<label for="email_confirmation">Confirmer l'adresse Email</label>
+					<input placeholder="Confirmer l'adresse Email" required autocomplete="off" id="email_confirmation" type="email" name="email_confirmation">
+				</fieldset>
+				<input class="btn-primary btn" type="submit" value="Modifier">
+			</form>
+			<h2>Votre mot de passe</h2>
+			<form accept-charset="utf-8" method="POST">
+				<fieldset>
+					<label for="password">Mot de passe</label>
+					<input placeholder="Mot de passe" required autocomplete="off" id="password" type="password" name="password">
+				</fieldset>
+				<fieldset>
+					<label for="password_confirmation">Confirmer le mot de passe</label>
+					<input placeholder="Confirmer le mot de passe" required autocomplete="off" id="password_confirmation" type="password" name="password_confirmation">
+				</fieldset>
+				<input class="btn-primary btn" type="submit" value="Modifier">
+			</form>
+		</div>
+	</body>
+</html>

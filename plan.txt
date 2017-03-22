@@ -1,0 +1,7 @@
+formulaire d'inscription :  pseudo, mail, mot de passe, nom, prenom, date de naissance, sexe
+accueil : 
+fiche épisode : 
+profil utilisateur : image, mot de passe , mail , profil
+forum : liste de catégorie
+page de conversation
+page de sujet

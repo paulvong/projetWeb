@@ -1,0 +1,87 @@
+
+/*------------------ HEADER ----------------------------*/
+header{
+	background: black;
+	position : relative;
+	margin-top : 4%;
+}
+header h1{
+	position : absolute;
+	margin: 0 0 1em 1em;
+	font-size: 1.5em;
+	bottom : 0%;
+}
+#headerWrapper{
+	width: 90%;
+	margin: auto;
+	background: grey;
+	min-height: 5em;
+	margin-top : 4%;
+	
+}
+/*------------------ NAV -----------------------------*/
+
+nav{
+	background: red;
+	position : fixed;
+	top : 0;
+	width : 100%;
+	margin : auto;
+	/*min-height : 8%;*/
+}
+
+#navWrapper{
+	position : fixed;
+	width: 100%;
+	margin: auto;
+	background: yellow;
+	/*min-height : 8%;*/
+}
+
+#navWrapper ul{
+	margin: 0;
+	
+}
+
+#navWrapper li{
+	display: inline-block;
+	margin: 0;
+	
+}
+
+#navWrapper li a{
+	margin : 10%;
+	padding: 15%;
+	display: block;
+	border: 1px solid #0f0;
+	color: #00f;
+}
+#navWrapper li a:hover{
+	background: #0f0;
+	color: #f00;
+}
+/*------------------- BODY --------------------------*/
+body{
+	background: blue;
+	margin : 0;
+}
+#bodyWrapper{
+	width: 90%;
+	margin: auto;
+	background: green;
+	min-height: 20em;
+}
+#section1{
+	width: 50%;
+	background: purple;
+	display: inline-block;
+	min-height: 20em;
+	margin: 1em 2em;
+}
+#section2{
+	width: 30%;
+	background: pink;
+	display: inline-block;
+	min-height: 15em;
+	margin: 1em 2em;
+}
